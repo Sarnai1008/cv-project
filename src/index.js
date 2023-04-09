@@ -5,7 +5,7 @@ const domNode = document.getElementById('root');
 const root = createRoot(domNode);
 
 root.render(
-  <h1>Hello world</h1> 
+  <h1>Hello world...</h1> 
 );
 
 // ReactDOM.render(
