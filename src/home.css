@@ -1,0 +1,206 @@
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+@-ms-viewport {
+    width: device-width;
+    height: device-height;
+    margin: 0%;
+}
+
+[tabindex="-1"]:focus {
+    outline: 0!important
+}
+.homePage{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c173caff-1ba4-4e97-b0eb-a6bfc38d363f/de9aqrr-9a712ec4-b39b-4996-8b18-7185aa991af0.jpg/v1/fill/w_1192,h_670,q_70,strp/green_matrix_code_1920x1080_wallpaper_by_proditae_de9aqrr-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2MxNzNjYWZmLTFiYTQtNGU5Ny1iMGViLWE2YmZjMzhkMzYzZlwvZGU5YXFyci05YTcxMmVjNC1iMzliLTQ5OTYtOGIxOC03MTg1YWE5OTFhZjAuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.RuSmT_wENVJnLCTF0JCvmBJk3KHgx15wmhANx33sapE");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 3;
+    color:#fff;
+    font-family: 'Arial', Courier, monospace;
+    margin: 0%;
+}
+
+p {
+      margin: 11px 0 23px;
+      font-size: 16px;
+      line-height: 32px;
+      font-weight: 400;
+      font-family: 'Open Sans', sans-serif;
+     }
+
+
+/*2r bagana buyu texttei heseg*/
+.text{
+  position: static;
+    text-align: left;
+    width: 40%;
+    float: right;
+    clear: right;
+    margin-right: 10%;
+    height: 80vh;
+    margin-top: 20vh;
+}
+
+.hello{
+  font-weight: 400;
+  font-size: 19px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px, 0px, 8px;
+}
+h1{
+  font-size: 42px;
+  line-height: 42px;
+  font-weight: 500;
+  margin: 19px 0 10px;
+  color: #eee;
+  white-space: nowrap;
+  position: relative;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+}
+/* hodolgoontei */
+.Bi{
+    color: white;
+    font-size: 20px;
+    display: inline;
+    margin: 19px, 0px, 0px;
+    font-weight: 700;
+}
+
+.majorName{
+    color: #9acd32;
+    font-family: '42px Poppins', sans-serif;
+    font-weight: 700;
+    padding: 0;
+}
+.towch-tanultsuulga{
+    color: white;
+    padding-top: 0%;
+    margin: 11px, 0px, 23px;
+}
+.img{
+  margin: 0%;
+    width: 45%;
+    height: 100vh;
+    float: left;
+    text-align: end;
+
+}  
+.tseejZurag1{
+  border-radius: 50%;
+  max-width: 320px;
+  border: 10px solid rgba(255,255,255,.1);
+  z-index: 1;
+  margin-top: 20vh !important;
+}
+.button1 {
+  box-shadow: none !important;
+  border-radius: 26px;
+  font-weight: 500;
+  height: 46px;
+  line-height: 46px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0 33px;
+  outline: none !important;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: .5px;
+  background-color: #9acd32;
+  border: 0;
+}
+
+.button1 span {
+  position: relative;
+  z-index: 2;
+}
+
+.button1:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  height: 102%;
+  left: -25%;
+  width: 0%;
+  background-color: #555;
+  transform: skew(-22deg);
+  transition-duration: .6s;
+  z-index: 1;
+}
+
+.button1:hover:before {
+  width: 180%;
+}
+
+.button1:hover {
+  box-shadow: none;
+  color: #fff;
+}
+
+.button2 {
+  box-shadow: none !important;
+  border-radius: 26px;
+  font-weight: 500;
+  height: 46px;
+  line-height: 46px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #9acd32;
+  padding: 0 33px;
+  outline: none !important;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: .5px;
+  background-color: #555;
+  border: 0;
+  border: 1px solid #9acd32;
+  margin-left: 5%;
+}
+
+.button2 span {
+  position: relative;
+  z-index: 2;
+}
+
+.button2:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  height: 102%;
+  left: -25%;
+  width: 0%;
+  background-color: #9acd32;
+  transform: skew(-22deg);
+  transition-duration: .6s;
+  z-index: 1;
+}
+
+.button2:hover:before, button2:hover:before  {
+  width: 180%;
+}
+.button2:after {
+  background: #9acd32;
+}
+.button2:hover {
+  box-shadow: none;
+  color: #fff;
+  background-color: #9acd32;
+}
+a{
+  color: #555;
+}

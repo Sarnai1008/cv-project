@@ -1,0 +1,21 @@
+.footer{
+    background-color: #9acd32;
+    width: 100vw;
+    height: fit-content;
+    padding: auto;
+    text-align: center;
+}
+
+.icon1{
+    color: white;
+    scale: 2;
+    margin-top: 3%;
+    margin-left: 5vh;
+}
+.icon2{
+    scale: 0.8;
+    padding:0%;
+}
+.copyright{
+    color: #555;
+}

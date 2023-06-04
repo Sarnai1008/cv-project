@@ -1,7 +1,16 @@
 import  React from  'react';
-import  ReactDOM  from 'react-dom';
-
+import Home from './Home';
+import Aboutme  from './Aboutme';
+import Contact from './contact';
+import Footer from './footer';
 function App(){
-    return <h1>Hello world </h1> ;
+
+    return <div>
+    <Home />
+    <Aboutme />
+    <Contact />
+    <Footer />
+    </div>;
 }
+
 export default App;

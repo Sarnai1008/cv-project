@@ -1,0 +1,11 @@
+.MenuButton{
+    margin-top: 5%;
+    margin-left: 5vh;
+  }
+  .MenuBar{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    position: absolute;
+  }
