@@ -20,3 +20,9 @@
 .copyright{
     color: #555;
 }
+
+@media only screen and (max-width: 900px){
+    .icon1{
+        scale: 1;
+    }
+}

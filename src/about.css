@@ -51,9 +51,7 @@ p {
   clear: both;
   margin-right: 3%;
   margin-left: 3%;
-  
 }
-
 .info3{
   width: 30%;
   clear: both;
@@ -140,7 +138,7 @@ label{
 }
 
   .Resume{
-    width: 100%;
+  width: 100vw;
    clear:both;
    padding-bottom: 5vh;
   }
@@ -173,4 +171,56 @@ label{
   width: 27%;
   float: left;
   margin-right: 5%;
+}
+@media only screen and (max-width: 900px){
+  .personalInfo{
+    width: 100%;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+  }
+  .info1{
+    width: 70%;
+    float: none;
+    margin-left: 20%;
+    margin-bottom: 5%;
+  }
+  .info2{
+    width: 70%;
+    float: none;
+    margin-left: 20%;
+    margin-bottom: 5%;
+  }
+  .info3{
+    width: 70%;
+    float: none;
+    margin-left: 20%;
+    margin-bottom: 5%;
+  }
+  .edu{
+    width: 90%;
+
+  }
+  .exp{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .skills{
+    width: 100%;
+  }
+  .bar1{
+    width: 70%;
+    margin-left: 15%;
+  }
+  .personalInfo{
+    text-align: left;
+    display: block;
+  }
+  .info{
+    width: 100%;
+    text-align: center;
+  }
+  button{
+    scale: 0.9;
+  }
 }

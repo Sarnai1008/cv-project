@@ -1,15 +1,10 @@
 
 html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent
-}
-
-@-ms-viewport {
-    width: device-width;
-    height: device-height;
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent
 }
 
 body{
@@ -17,6 +12,7 @@ margin: 0%;
 padding: 0%;
 background-color: #555;
 }
+
 .homePage{
   width: 100vw;
   height: 100vh;
@@ -34,18 +30,14 @@ p {
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
 }
-
-
 /*2r bagana buyu texttei heseg*/
 .text{
-  position: static;
   text-align: left;
   width: 40%;
-  margin-top: 20vh;
   float: right;
   clear: right;
   margin-right: 10%;
-  height: 80vh;
+  margin-top: 30vh;
 }
 .hello{
   font-weight: 400;
@@ -99,7 +91,8 @@ h1{
   max-width: 320px;
   border: 10px solid rgba(255,255,255,.1);
   z-index: 1;
-  margin-top: 20vh !important;
+  text-align: start;
+  margin-top: 30vh !important;
 }
 .button1 {
   box-shadow: none !important;
@@ -201,4 +194,55 @@ h1{
 }
 a{
   color: #555;
+}
+@media only screen and (max-width: 900px){
+  .body{
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+  }
+  .homePage{
+    background-image: none!important;
+    margin: 0%!important;
+    text-align: center;
+    height: max-content !important;
+    position: relative;
+    width: 100%;
+    padding-top: 5%;
+  }
+  .bi{
+    font-size: 20px;
+  }
+  .majorName{
+    font-size: 20px;
+  }
+  .text{
+    width: 90%;
+    float:none;
+    position: relative;
+    margin: 5%;
+    text-align: center;
+
+  }
+  .img{
+    width: 100%;
+    float:none;
+    height: max-content;
+    text-align: center;
+    margin: 0%!important;
+    padding: 0%;
+
+  }
+  .tseejZurag1{
+    scale: 0.6;
+    width: 100%;
+    float:none;
+    margin: 0%!important;
+    padding: 0%;
+    position: relative;
+  }
+  .button1, .button2{
+    margin: 0%;
+    padding: 0%;
+  }
 }

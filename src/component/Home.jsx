@@ -42,7 +42,7 @@ function Home(){
              I&apos;m software engineer based in Ulaanbaatar, Mongolia. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.
          </p>
          <div className="btn">
-             <a href="#aboutMe"><button href='#aboutMe' className="button1"><span><PersonIcon/> &nbsp; About me</span></button></a>
+             <a href="#aboutMe"><button  className="button1"><span><PersonIcon/> &nbsp; About me</span></button></a>
              <a href="https://github.com/Sarnai1008"><button className="button2"><span><GitHubIcon /> &nbsp;My github </span></button></a>
          </div>
     </div>

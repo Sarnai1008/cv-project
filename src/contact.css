@@ -47,3 +47,13 @@
 .value{
   color: #FFFFFF;
 }
+@media only screen and (max-width: 900px){
+  .card1{
+    width: 100%;
+    padding: 0%;
+  }
+  .card2{
+    width: 100%;
+    padding: 0%;
+  }
+}
