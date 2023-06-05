@@ -1,9 +1,9 @@
 .footer{
-    background-color: #9acd32;
+    background-color: #333;
     width: 100vw;
     height: fit-content;
-    padding: auto;
     text-align: center;
+    clear: both;
 }
 
 .icon1{
@@ -11,6 +11,7 @@
     scale: 2;
     margin-top: 3%;
     margin-left: 5vh;
+    margin-bottom: 10px;
 }
 .icon2{
     scale: 0.8;

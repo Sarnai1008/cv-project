@@ -1,7 +1,7 @@
 .about{
   clear: both;
-  background: #333;
   margin: 0%;
+  width: 100vw;
 }
 
 #aboutMe{
@@ -13,17 +13,13 @@
     clear: both;
 }
 
-.Zurag{
-    width: 40%;
-    float: left;
-    text-align: end;
-}
 .personalInfo{
-    width: 80%;
-    float: right;
+    width: 90vw;
+    margin-left: 5vw;
+    display: flex;
 }
 ul{
-   padding: 0;
+  padding: 0;
   margin-top: -8px;
   list-style: none;
   margin:0;
@@ -38,56 +34,55 @@ li{
   
 }
 p {
-    line-height: 32px;
-	margin: 17px 0 16px;
+  line-height: 32px;
   margin-bottom: 7px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   opacity: .8;
-  padding-right: 20px;
 }
 .info1{
-    width: 45%;
-    float: left;
-    margin-left: 5%;
-   
+  width: 30%;
+  clear: both;
+  margin-right: 3%;
 } 
 .info2{
-    width: 45%;
-    float: right;
-    margin-right: 5%;
- 
+  width: 30%;
+  clear: both;
+  margin-right: 3%;
+  margin-left: 3%;
+  
 }
+
+.info3{
+  width: 30%;
+  clear: both;
+  margin-left: 3%;
+}
+
 .Header{
     text-align: center;
     color: white;
     margin-top: 0%;
-    padding-top: 2vh;
+    padding-top: 5vh;
     padding-bottom: 2vh;
 }
 label{
+  text-transform: uppercase;
   margin: 5px 0 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   display: inline-block;
   color:#9acd32;
 }
-.tseejZurag{
-  border-radius: 50%;
-  max-width: 320px;
-  border: 10px solid rgba(255,255,255,.1);
-  z-index: 1;
-  margin: 0% !important;
-}
 .cv{
-    text-align: center;
-    float: left;
-    margin-top: 5%;
-    height: 25px;
-    display: flex;
-    align-items: left;
-    justify-content: left;
+  padding-top: 4%;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
 /*button home*/
@@ -173,7 +168,6 @@ label{
     clear: both;
     width:95vw;
     padding-left: 5vw;
-    padding-bottom: 30vh;
   }
 .bar1{
   width: 27%;

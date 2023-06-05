@@ -71,25 +71,32 @@ return <div id="aboutMe" className="about">
    
     
     <div className="personalInfo">
-        <div className="info1">
+        <div className="info2">
            <p> <label>Frist name </label>&emsp; Sarnai</p>
            <p> <label>Last name </label> &emsp;Gantulga</p>
            <p> <label>Birthdate </label> &emsp;08 Oct 2002</p>
            <p> <label>Nationality </label>&emsp; Mongolian</p>
-           <p> <label>Major </label>&emsp; Software engineer</p>
            <p> <label>University </label>&emsp; NUM</p>
-           <div className="cv">
-            <button className="button"><span>DOWNLOAD MY CV</span></button>
-         </div>
         </div>
-        <div className="info2">
-            <p> <label>Freelance</label> &emsp;Available</p>
-            <p> <label>From</label>&emsp; Zavkhan, Mongolia</p>
-           <p> <label> Address</label>&emsp; Khan-Uul district, 4th khoroo, Hunnu Villa 1407-11</p>
-           <p> <label>Email </label>&emsp; gantulgasarnai0@gmail.com</p>
-           <p> <label>Phone </label>&emsp;  +976 9436 3309</p>
-           <p> <label>Github</label>&emsp; Sarnai1008</p>
+        <div className="info1">
+          <p> <label>Major </label>&emsp; Software engineer</p>
+          <p> <label>From</label>&emsp; Zavkhan, Mongolia</p>
+          <p> <label>Age</label> &emsp;21</p>
+          <p> <label>Freelance</label> &emsp;Available</p>
+          <p> <label>Marital status</label> &emsp;Single</p>
         </div>
+        <div className="info3">
+          <p><label>Advantages</label></p>
+            <p>Critical thinking </p>
+            <p>Adaptability</p>
+            <p>Self-management</p>
+            <p>Creativity</p>
+        </div>
+    </div>
+    <div className="cv">
+    <a href="../images/cv.JPEG" download>
+      <button className="button"><span>DOWNLOAD MY CV</span></button>
+    </a>
     </div>
     <div className="zuraas">
         <hr className="hr1" />
@@ -155,6 +162,9 @@ return <div id="aboutMe" className="about">
             </div>
         
         </div>
+    </div>
+    <div className="zuraas">
+        <hr className="hr1" />
     </div>
 </div>
 

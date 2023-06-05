@@ -1,18 +1,13 @@
-@-ms-viewport {
-    width: device-width;
-    height: device-height;
-  }
 .contact{
-  margin: auto;
-    clear: both;
-    background: #333;
-    width: 100vw;
-    text-align: center;
+  clear: both;
+  width: 100vw;
+  text-align: center;
   }
 .Header2{
+  width: 100%;
   color: white;
-  padding-top: 10vh;
-  padding-bottom: 5vh;
+  text-align: center;
+  margin-bottom: 5%;
 }
 .headMe2{
   color: #9acd32;
@@ -23,66 +18,22 @@
 }
 .card1{
   width: 20vw;
-  margin: auto;
   text-align: center;
   margin-bottom: 20vh;
   padding: 5vh;
   border: 5px solid #94AF9F;
-  margin: 20px;
+  border-radius: 10%;
   margin-bottom: 10vh;
   float:right;
 }
 .card2{
   width: 20vw;
-  margin: auto;
   text-align: center;
   padding: 5vh;
   border: 5px solid #94AF9F;
-  margin: 20px;
   margin-bottom: 10vh;
   float:left;
-}
-input{
-  width: 80%;
-  height: 5vh;
-  background-color: #333;
-  color:#9acd32;
-  margin-top: 10vh;
-  display:inline-block;
-  clear:both;
-}
-.button3{
-  width: 80vw;
-  margin-left: 10vw;
-  text-align: left;
-}
-.form{
-  width: 80vw;
-  height: 80vh;
-  background-color: #333;
-  clear: both;
-  margin: 10vw;
-  margin-bottom: 0%;
-}
-.button4{
-  box-shadow: none !important;
-  border-radius: 26px;
-  font-weight: 500;
-  height: 46px;
-  line-height: 46px;
-  font-size: 15px;
-  text-transform: uppercase;
-  color: #9acd32;
-  outline: none !important;
-  overflow: hidden;
-  display: inline-block;
-  position: relative;
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: .5px;
-  background-color: #555;
-  border: 0;
-  border: 1px solid #9acd32;
- margin-top: 5vh;
+  border-radius: 10%;
 }
 .icon{
   color: #9acd32;
@@ -90,18 +41,9 @@ input{
   padding: 5%;
 }
 .attr{
-  font-size: 16px;
-  line-height:40px ;
-  font-weight: 600;
-  font-family: 'Open Sans', sans-serif;
-  color:#ffffff;
-  margin: 10px;
+  color:#FFFFFF;
+  text-transform: uppercase;
 }
 .value{
-  font-size: 16px;
-  line-height: 32px;
-  font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
-  color:#ffffff;
-  text-align: auto;
+  color: #FFFFFF;
 }
