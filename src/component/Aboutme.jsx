@@ -66,7 +66,6 @@ function Aboutme(){
 return <div id="aboutMe" className="about">
     <div className="Header">
         <h1>ABOUT <span className="headMe">ME</span></h1>
-        <p>I CAN DO ALL. &nbsp; JUST BELIEVE ME.</p>
     </div>
    
     
