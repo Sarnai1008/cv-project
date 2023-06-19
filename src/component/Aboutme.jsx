@@ -44,7 +44,7 @@ const skillsData2= [
   ]
   const skillsData3= [
     {
-      name: 'REACT',
+      name: 'REACT JS',
       level: 80,
       color: '#9acd32',
     },
