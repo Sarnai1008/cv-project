@@ -10,17 +10,17 @@ import { SkillBars } from 'react-skills';
 
 const skillsData1= [
   {
-    name: 'HTML',
-    level: 100,
+    name: 'HTML, CSS, JS',
+    level: 95,
     color: '#9acd32',
   },
   {
-    name: 'CSS',
-    level: 90,
+    name: 'Assembly',
+    level: 80,
     color: '#9acd32',
   },
   {
-    name: 'JAVASCRIPT',
+    name: 'Node js',
     level: 80,
     color: '#9acd32',
   }
@@ -33,12 +33,12 @@ const skillsData2= [
     },
     {
       name: 'C/C++',
-      level: 70,
+      level: 100,
       color: '#9acd32',
     },
     {
       name: 'SQL',
-      level: 100,
+      level: 95,
       color: '#9acd32',
     }
   ]
@@ -50,7 +50,7 @@ const skillsData2= [
     },
     {
       name: 'GITHUB',
-      level: 75,
+      level: 80,
       color: '#9acd32',
     },
     {
@@ -132,7 +132,7 @@ return <div id="aboutMe" className="about">
                 <Card 
                     icon={<CalendarMonthIcon/>}
                     icon2={<CodeIcon/>}
-                    date="2022 - NOW"
+                    date="2022 - 2023"
                     title="HACKUM CLUB- ACTIVITY MEMBER"
                     context="This club is a community of coding students from my  university. Since joining this club, I have participated in many workshops, increased my technological knowledge, and developed my skills such as organizing competitions and teamwork. "
                 />
@@ -141,7 +141,7 @@ return <div id="aboutMe" className="about">
                 <Card 
                 icon={<CalendarMonthIcon/>}
                     icon2={<VolunteerActivismIcon />}
-                    date="2021 - NOW "
+                    date="2021 - 2023 "
                     title="NUM VOLUNTEER CLUB -  MEMBER"
                     context="I joined this club when I just enrolled the  university because I love volunteering. After joining this club and doing  dozens of volunteer work, I am still learning a lot about how to properly interact with nature, wildlife, and people."
                 />
